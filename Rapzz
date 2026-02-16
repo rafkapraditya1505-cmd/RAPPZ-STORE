@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RAPZZ STORE | Joki ML</title>
+  <style>
+    :root{
+      --blue:#1e6cff;
+      --blue-soft:#eaf1ff;
+      --dark:#0f172a;
+      --muted:#64748b;
+      --bg:#f7f9ff;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--dark);
+    }
+    .container{max-width:1000px;margin:auto;padding:24px}
+    header{
+      text-align:center;
+      padding:72px 16px 56px;
+    }
+    header h1{font-size:2.6rem;margin:0 0 10px}
+    header p{color:var(--muted);font-size:1.05rem}
+    .btn{
+      display:inline-block;margin-top:22px;
+      padding:14px 34px;border-radius:12px;
+      background:var(--blue);color:#fff;
+      text-decoration:none;font-weight:700;
+      box-shadow:0 10px 25px rgba(30,108,255,.25);
+    }
+    section{margin-top:64px}
+    section h2{text-align:center;margin-bottom:28px}
+    .grid{
+      display:grid;gap:18px;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    }
+    .card{
+      background:var(--card);border-radius:16px;
+      padding:22px;box-shadow:0 8px 22px rgba(0,0,0,.06);
+    }
+    .pill{
+      display:inline-block;background:var(--blue-soft);
+      color:var(--blue);padding:6px 12px;border-radius:999px;
+      font-weight:700;font-size:.85rem;margin-bottom:10px;
+    }
+    .price{
+      font-size:1.6rem;font-weight:800;color:var(--blue)
+    }
+    .muted{color:var(--muted)}
+    table{
+      width:100%;border-collapse:separate;border-spacing:0 12px;
+    }
+    td{
+      background:#fff;padding:16px 18px;border-radius:14px;
+      box-shadow:0 6px 18px rgba(0,0,0,.05);
+      font-weight:600;
+    }
+    td span{color:var(--muted);font-weight:500}
+    .testi{
+      display:grid;gap:18px;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    }
+    .quote{font-style:italic}
+    footer{
+      text-align:center;margin:80px 0 28px;color:var(--muted);
+      font-size:.9rem
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>RAPZZ STORE</h1>
+      <p>Joki ML aman & cepat • Privasi terjaga • Target tercapai</p>
+      <a class="btn" href="https://wa.me/6285955160860">Order via WhatsApp</a>
+    </header>
+
+    <section>
+      <h2>Kenapa RAPZZ STORE?</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="pill">⚡ Cepat</div>
+          <p>Proses sesuai target & kesepakatan waktu.</p>
+        </div>
+        <div class="card">
+          <div class="pill">🔒 Aman</div>
+          <p>Data akun dijaga, SOP jelas.</p>
+        </div>
+        <div class="card">
+          <div class="pill">🎮 Pro</div>
+          <p>Handle Epic sampai Immortal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Harga Joki (Per Bintang)</h2>
+      <table>
+        <tr><td>Epic <span>—</span></td><td class="price">Rp7.000</td></tr>
+        <tr><td>Legend <span>—</span></td><td class="price">Rp8.000</td></tr>
+        <tr><td>Mythic <span>—</span></td><td class="price">Rp16.000</td></tr>
+        <tr><td>Honor <span>—</span></td><td class="price">Rp20.000</td></tr>
+        <tr><td>Glory <span>—</span></td><td class="price">Rp25.000</td></tr>
+        <tr><td>Immortal <span>—</span></td><td class="price">Rp28.000</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Testimoni</h2>
+      <div class="testi">
+        <div class="card">
+          <p class="quote">"Cepet naik, aman, admin ramah."</p>
+          <strong>— Reza, 19 th</strong>
+        </div>
+        <div class="card">
+          <p class="quote">"Harga masuk, hasil mantap."</p>
+          <strong>— Aldi, 20 th</strong>
+        </div>
+        <div class="card">
+          <p class="quote">"Trusted, repeat order."</p>
+          <strong>— Nando, 18 th</strong>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 RAPZZ STORE • All rights reserved
+    </footer>
+  </div>
+
+</body>
+</html>
